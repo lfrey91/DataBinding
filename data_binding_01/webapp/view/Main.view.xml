@@ -6,11 +6,11 @@
         growing="true"
         growingThreshold="10"
         items="{ 
-            path: '/Products' 
+            path: '/People' 
             }">
             <columns>
                 <Column>
-                    <Label text="Name" />
+                    <Label text="Category Name" />
                 </Column>
                 <Column>
                     <Label text="Description" />
@@ -19,8 +19,8 @@
             <items>
                 <ColumnListItem>
                     <cells>
-                        <Text text="{Name}" />
-                        <Text text="{Description}" />
+                        <Text text="{UserName}" />
+                        <Text text="{FirstName}" />
                     </cells>
                 </ColumnListItem>
             </items>

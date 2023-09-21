@@ -17,7 +17,7 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "/V4/(S(qzig4iy11cbb3f1ywpgnklpe))/OData/OData.svc/",
+        "uri": "/V4/(S(reo34tomzrvqvbnenhihqg1q))/TripPinServiceRW/",
         "type": "OData",
         "settings": {
           "annotations": [],
@@ -73,6 +73,7 @@
         "dataSource": "mainService",
         "preload": true,
         "settings": {
+          "groupId": "$direct",
           "synchronizationMode": "None",
           "operationMode": "Server",
           "autoExpandSelect": true,
