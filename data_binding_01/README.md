@@ -19,6 +19,8 @@
 
 ## data_binding_01
 
+Test
+
 A Fiori application.
 
 ### Starting the generated app
